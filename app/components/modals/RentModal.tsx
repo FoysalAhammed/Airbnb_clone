@@ -70,11 +70,7 @@ const RentModal = () => {
 
   const Map = useMemo(() => dynamic(() => import('../Map'), { 
     ssr: false 
-<<<<<<< HEAD
   // eslint-disable-next-line react-hooks/exhaustive-deps
-=======
-      // eslint-disable-next-line react-hooks/exhaustive-deps
->>>>>>> 05309cefa119d10b76bb71a5f07a75c69518b8da
   }), [location]);
 
 
